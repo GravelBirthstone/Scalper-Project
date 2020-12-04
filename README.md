@@ -62,13 +62,13 @@ Acceptance Tests:
 **Time to Settle:**
 As a user I want to know how long I have to wait for an inflated price to return to MSRP so that I can save money. 
 Feature Tasks:
-Research time price data of products that have come down from a scalpers high.
-Graph trend in price descents back to MSRP
-Make conclusion based on data
-Present user average time of price to return to MSRP
-Make prediction of when product will return to MSRP (linear regression)
+- Research time price data of products that have come down from a scalpers high.
+- Graph trend in price descents back to MSRP
+- Make conclusion based on data
+- Present user average time of price to return to MSRP
+- Make prediction of when product will return to MSRP (linear regression)
 Acceptance Tests:
-Able to find data of price hike and fall
-Able to produce graph of product cycles
-Able to present conclusion in Notebook
-Able to present prediction of current products price cycle
+- Able to find data of price hike and fall
+- Able to produce graph of product cycles
+- Able to present conclusion in Notebook
+- Able to present prediction of current products price cycle
