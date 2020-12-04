@@ -18,44 +18,46 @@ Basic scaffolding and dependencies.
 **Price Check:**
 As a consumer I want to see the current cost of an out-of-stock new product compared to its MSRP so I can choose to buy or not as an informed consumer.
 Feature Tasks:
-Research product MSRP
-Scrape web for current average listing price
-Create CSV of price data
-Graph current prices vs MSRP in Notebook
+- Research product MSRP
+- Scrape web for current average listing price
+- Create CSV of price data
+- Graph current prices vs MSRP in Notebook
 Acceptance Tests:
-Able to find MSRP
-Able to scrape secondary market sites for prices
-Able to produce CSV a file with appropriate scraped data
-Able to generate graph in Jupyter Notebook
+- Able to find MSRP
+- Able to scrape secondary market sites for prices
+- Able to produce CSV a file with appropriate scraped data
+- Able to generate graph in Jupyter Notebook
 
 **Price History:**
 As a consumer I want to know the historical trend in price scalping so I can understand what is happening today.
 Feature Tasks:
-Research historical cases of product scalping
-Import historical data as CSV
-Present historical price trend vs current prices
+- Research historical cases of product scalping
+- Import historical data as CSV
+- Present historical price trend vs current prices
 Acceptance Tests:
-Able to find historical scalping data
-Able to import CSV
-Able to create visual comparison of historical vs current
+- Able to find historical scalping data
+- Able to import CSV
+- Able to create visual comparison of historical vs current
 
 **Price Change:**
 As a consumer I want a graph so that I can see the price change over time of a product.
 Feature Tasks:
-Create specific data sets from CSV
-Create graph to plot price change over time
+- Create specific data sets from CSV
+- Create graph to plot price change over time
 Acceptance Tests:
-Able to extract price and time data from CSV
-Able to produce graph of price over time
+- Able to extract price and time data from CSV
+- Able to produce graph of price over time
 
 **Inflated Price Perspective:**
 As a user I want an app that will show me what scalping of common household items would look like so I can put the scalped prices into perspective.
 Feature Tasks:
-Create app that takes in a product and a price and produces a scalped price based on current scalping trends.
+- Create a data visualization that shows a common consumer product and produces a scalped price based on current scalping trends.
+- Create app that takes in a product and a price and produces a scalped price based on current scalping trends. (stretch goal)
 Acceptance Tests:
-Able to take user input
-Able to make calculation on user input
-Able to output scalped price to user.
+- Able to display a sample of a different consumer item.
+- Able to take user input (stretch goal)
+- Able to make calculation on user input (stretch goal)
+- Able to output scalped price to user. (stretch goal)
 
 **Time to Settle:**
 As a user I want to know how long I have to wait for an inflated price to return to MSRP so that I can save money. 
