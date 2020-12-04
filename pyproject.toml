@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scalper-project"
+version = "0.1.0"
+description = ""
+authors = ["TAYLOR JOHNSON <TAYLOR.MCMINN@GMAIL.COM>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^2.2.9"
+beautifulsoup4 = "^4.9.3"
+seaborn = "^0.11.0"
+pandas = "^1.1.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
