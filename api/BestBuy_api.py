@@ -11,3 +11,5 @@ ps5 = requests.request("GET", ps5_url)
 print(ps3.text)
 print(ps4.text)
 print(ps5.text)
+
+# https://bestbuyapis.github.io/api-documentation/#overview

@@ -12,3 +12,6 @@ headers = {
 response = requests.request("GET", url, headers=headers, params=querystring)
 
 print(response.text)
+
+
+# https://rapidapi.com/Megatvini/api/amazon-price-history/endpoints
