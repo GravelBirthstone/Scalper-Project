@@ -38,7 +38,7 @@ for i in range(1, 10):
 
 def store_ebay_data(name, price):
     # write new numbers to empty txt file using w and file.write
-    with open("data/ebay_data.csv", "w") as file:
+    with open("data/ebay_data_tuesday.csv", "w") as file:
         file.write("Listing Title,Price" + "\n")
         for i, item in enumerate(name):
             this_line = item.replace(",", " ") + "," + str(price[i]) + "\n"
