@@ -86,3 +86,4 @@ Acceptance Tests:
 - [enumerate for loop](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
 - [rounding](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.round.html)
 - [second y axis](https://cmdlinetips.com/2019/10/how-to-make-a-plot-with-two-different-y-axis-in-python-with-matplotlib/)
+- [revert git commit](https://opensource.com/article/18/6/git-reset-revert-rebase-commands)
