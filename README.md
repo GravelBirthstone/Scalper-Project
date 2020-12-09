@@ -77,6 +77,8 @@ Acceptance Tests:
 
 
 ## Data Sources
+- [PS4 prices from camelcamelcamel](https://camelcamelcamel.com/PlayStation-4-Console/product/B00BGA9WK2?__cf_chl_jschl_tk__=8155a104c8d4bb2508a0acb50547d98736bd3348-1607377073-0-AbWXxCNwDvK7SQalO9hGORBG3Jd8kE_pyoX04gPfCaeBS7bAo8yjmFsL6mflW4tzVR2gfMWn2XpgFIIg1Kr-7myrKc9Gq3R68FwKZ4HpfkXwr8xIXZEEXtDMW5q_dSl5QOZdLwV_G_ttjSaeqg0b-RjCgNcqjktAPlU-03Z4-1a48-YyfG_YlCljh_F5sWcCbT0kn9hW4ZiXIFhD_1XuMkfTo3m8MUrB32sgs0EOqI2zzbt2FRaxGsBzonCRC5q8m9F6T4hqDmFdQKWyskrST8EyJSg1gcVzlIRCYxqaxg964g8IIhe9HpS3jHRwU2WXZu2r4aTI_g9SQk88dnDu8rruGujWYZB5BJKXNJI65QuL975LWxbdhYlP7usxFW8aM028XjHb6-mioxaW5AY_piYhAvxrGCcIDt7QffG74Wd5)
+- [PS5 on StockX.com](https://stockx.com/sony-ps5-playstation-5-digital-edition-console-white)
 
 
 ## Credits and Resources
@@ -87,3 +89,5 @@ Acceptance Tests:
 - [rounding](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.round.html)
 - [second y axis](https://cmdlinetips.com/2019/10/how-to-make-a-plot-with-two-different-y-axis-in-python-with-matplotlib/)
 - [revert git commit](https://opensource.com/article/18/6/git-reset-revert-rebase-commands)
+- [seaborn regression tutorial] (https://seaborn.pydata.org/tutorial/regression.html)
+
