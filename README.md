@@ -81,5 +81,17 @@ Acceptance Tests:
 - Able to present conclusion in Notebook
 - Able to present prediction of current products price cycle
 
-**Data Sources**
-ps4 historical sales sourced from: <https://www.sie.com/en/corporate/data.html>
+
+
+
+## Data Sources
+
+
+## Credits and Resources
+- [seaborn multiple line plots](https://towardsdatascience.com/a-step-by-step-guide-for-creating-advanced-python-data-visualizations-with-seaborn-matplotlib-1579d6a1a7d0)
+- [axis labels](https://www.kite.com/python/answers/how-to-label-axes-in-a-seaborn-bar-plot-in-python)
+- [add title](https://stackoverflow.com/questions/42406233/how-to-add-title-to-seaborn-boxplot)
+- [enumerate for loop](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
+- [rounding](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.round.html)
+- [second y axis](https://cmdlinetips.com/2019/10/how-to-make-a-plot-with-two-different-y-axis-in-python-with-matplotlib/)
+- [ps4 historical sales](https://www.sie.com/en/corporate/data.html)
