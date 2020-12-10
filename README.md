@@ -16,6 +16,22 @@ The global pandemic is severely limiting the supply chain, and this has caused a
 
 Basic scaffolding and dependencies.
 
+## Version 1.0.1
+
+Basic notebook structure created. Libraries added. Basic web scraper working.
+
+## Version 1.0.2
+
+Scraper writing to CSV. Notebooks generating graphs
+
+## Version 1.0.3
+
+Refactor scraper to write to CSV in desired format. Violin graphs and linear regression graphs working.
+
+## Version 1.0.4
+
+Refactor scraper to to randomize user agent in order to defeat eBay blockers on sold data scraping.
+
 ## User Stories
 
 **Price Check:**
@@ -80,7 +96,6 @@ Acceptance Tests:
 - Able to produce graph of product cycles
 - Able to present conclusion in Notebook
 - Able to present prediction of current products price cycle
-
 
 
 
