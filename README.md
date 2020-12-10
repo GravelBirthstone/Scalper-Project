@@ -99,4 +99,12 @@ Acceptance Tests:
 - [ps4 historical sales](https://www.sie.com/en/corporate/data.html)
 - [revert git commit](https://opensource.com/article/18/6/git-reset-revert-rebase-commands)
 - [seaborn regression tutorial](https://seaborn.pydata.org/tutorial/regression.html)
+- [change color of regression line in seaborn](https://stackoverflow.com/questions/35827268/how-to-change-the-line-color-in-seaborn-lmplot)
+- [dataframe to list](https://stackoverflow.com/questions/22341271/get-list-from-pandas-dataframe-column)
+- [sklearn: plot svm regression](https://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html)
+- [vertical x labels in matplotlib](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/ticklabels_rotation.html)
+- [rotated labels in seaborn](https://stackoverflow.com/questions/26540035/rotate-label-text-in-seaborn-factorplot)
+- [string into datetime](https://stackoverflow.com/questions/466345/converting-string-into-datetime)
+- [datetime.fromisoformat and datetime.strptime](https://docs.python.org/3/library/datetime.html#datetime.datetime.strptime)
+
 
