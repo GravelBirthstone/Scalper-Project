@@ -106,5 +106,7 @@ Acceptance Tests:
 - [rotated labels in seaborn](https://stackoverflow.com/questions/26540035/rotate-label-text-in-seaborn-factorplot)
 - [string into datetime](https://stackoverflow.com/questions/466345/converting-string-into-datetime)
 - [datetime.fromisoformat and datetime.strptime](https://docs.python.org/3/library/datetime.html#datetime.datetime.strptime)
-
+- [ravel](https://www.javatpoint.com/numpy-ravel#:~:text=numpy.-,ravel()%20in%20Python,source%20array%20or%20input%20array.)
+- [svm.svc inputs](https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html#sklearn.svm.LinearSVC.fit)
+- [scikit-learn: support vector regression using linear and non-linear kernels](https://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html)
 
