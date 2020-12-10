@@ -109,4 +109,4 @@ Acceptance Tests:
 - [ravel](https://www.javatpoint.com/numpy-ravel#:~:text=numpy.-,ravel()%20in%20Python,source%20array%20or%20input%20array.)
 - [svm.svc inputs](https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html#sklearn.svm.LinearSVC.fit)
 - [scikit-learn: support vector regression using linear and non-linear kernels](https://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html)
-
+- [colors](https://matplotlib.org/3.3.3/tutorials/colors/colors.html)
