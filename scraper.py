@@ -12,7 +12,7 @@ sold_times = []
 
 
 def get_sold_listings():
-    for i in range(1, 51):
+    for i in range(1, 49):
         user_agent_list = [
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15",
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0",
@@ -21,10 +21,12 @@ def get_sold_listings():
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36",
         ]
         sold_url = f"https://www.ebay.com/sch/i.html?_from=R40&_nkw=playstation+5&_sacat=0&LH_Sold=1&LH_Complete=1_pgn%3D1&_ipg=200&_pgn={i}&rt=nc"
+        xbox_sold_url = f"https://www.ebay.com/sch/i.html?_from=R40&_nkw=xbox+series+x&_sacat=0&rt=nc&LH_Sold=1&LH_Complete=1_pgn%3D1&_ipg=200&_pgn={i}&rt=nc"
+        rtx_3080_sold_url = f"https://www.ebay.com/sch/i.html?_from=R40&_nkw=nvidia+rtx+3080&_sacat=0&rt=nc&LH_Sold=1&LH_Complete=1_pgn%3D1&_ipg=200&_pgn={i}&rt=nc"
         user_agent = random.choice(user_agent_list)
         # Set the headers
         headers = {"User-Agent": user_agent}
-        response = requests.get(sold_url, headers=headers)
+        response = requests.get(rtx_3080_sold_url, headers=headers)
         data = response.text
         soup = BeautifulSoup(data)
         time.sleep(1)
@@ -69,7 +71,7 @@ prices = []
 # this was really illustrative of that fact that data is in a constant state of flux and is somewhat fragile. If we were not careful
 # with how we executed these scraping functions we could accidentally delete the previous scrape and lose it forever
 def get_new_listings():
-    for i in range(1, 21):
+    for i in range(1, 3):
         time.sleep(2)
         user_agent_list = [
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15",
@@ -79,15 +81,13 @@ def get_new_listings():
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36",
         ]
         url = f"https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=playstation+5&_sacat=0&_ipg=200&_pgn={i}"
+        xbox_url = f"https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=xbox+series+x&_sacat=0&_ipg=200&_pgn={i}"
+        rtx_3080_url = f"https://www.ebay.com/sch/i.html?_from=R40&_nkw=nvidia+rtx+3080&_sacat=0&_ipg=50&_pgn={i}"
         user_agent = random.choice(user_agent_list)
         # Set the headers
         headers = {"User-Agent": user_agent}
-        response = requests.get(url, headers=headers)
+        response = requests.get(rtx_3080_url, headers=headers)
         data = response.text
-        soup = BeautifulSoup(data)
-
-        r = requests.get(url)
-        data = r.text
         soup = BeautifulSoup(data)
 
         listings = soup.find_all("li", attrs={"class": "s-item"})
@@ -138,7 +138,7 @@ def store_new_ebay_data(name, price, filepath):
 
 # get_sold_listings()
 # store_ebay_sold_data(
-#     sold_item_name, sold_prices, "data/sold_scrape_tuesday.csv", sold_times, sold_dates
+#     sold_item_name, sold_prices, "3080_sold.csv", sold_times, sold_dates
 # )
 # get_new_listings()
-# store_new_ebay_data(item_name, prices, "data/new_ebay_tues.csv")
+# store_new_ebay_data(item_name, prices, "3080_new.csv")
