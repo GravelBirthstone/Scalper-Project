@@ -32,6 +32,11 @@ Refactor scraper to write to CSV in desired format. Violin graphs and linear reg
 
 Refactor scraper to to randomize user agent in order to defeat eBay blockers on sold data scraping.
 
+## Version 1.0.4
+
+Added in PS5 average daily sale prices and corrected title of final plot.  Added PDF of Jupyter Notebook presentation.
+
+
 ## User Stories
 
 **Price Check:**
